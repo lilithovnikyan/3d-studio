@@ -1,0 +1,12 @@
+.main-add-to-cart {
+    background-color: #F5961B;
+    height: 36px;
+    width: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}

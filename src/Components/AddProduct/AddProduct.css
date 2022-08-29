@@ -1,0 +1,128 @@
+.add-product {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000052;
+    display: none;
+}
+.add-product-content {
+    width: 400px;
+    min-height: 320px;
+    background: #545662;
+    margin: 100px auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+.image-item img {
+    margin: 20px 0;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    font-size: 25px;
+}
+.close:hover {
+    cursor: pointer;
+}
+.upload__image-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.upload__image_content {
+    display: flex;
+    justify-content: center;
+}
+.upload__image-wrapper button {
+    width: 49%;
+    height: 45px;
+    background: white;
+}
+.upload-files {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.upload-block {
+    width: 160px;
+    height: 80px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+}
+.custom-file-input {
+    width: 129px;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+.custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+.custom-file-input:hover::before {
+    border-color: black;
+}
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.product-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+.product-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.product-block input {
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border: 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.save {
+    height: 49px;
+    background: #F5961B;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    border-radius: 25px;
+    border: 0;
+    color: white;
+    font-size: 16px;
+    margin: 20px auto;
+    width: 172px;
+    display: block;
+}
+.save:hover {
+    background: #a96a19;
+    cursor: pointer;
+}
+.modalOpen {
+    display: block;
+}
+.second-carusel {
+    max-width: 1000px;
+    margin: 60px auto;
+    background-color: silver;
+    padding: 40px;
+    height: 200px;
+}

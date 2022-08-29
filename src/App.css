@@ -1,38 +1,177 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+    margin: 10px 0;
+}
+body {
+    margin: 0;
+    background-color: #383A45;
+}
+.carusel-item-img {
+    width: 150px;
+    height: 120px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+.carusel-title {
+    height: 150px;
+    overflow: hidden;
+}
+.carusel-item {
+    width: 260px;
+}
+.main-carusel .carusel-item {
+    height: 280px;
+}
+.carusel {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    min-height: 400px;
+    border: 1px solid #707070;
+}
+.carusel .carusel-item {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.alice-carousel__stage-item {
+    margin: 0 1px !important;
+}
+.categories {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.categories span {
+    background-color: #F5961B;
+    height: 36px;
+    width: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.categories span:hover {
+    background: #7c3c7c;
+    cursor: pointer;
+}
+/* .alice-alice-carousel__prev-btn, 
+.alice-carousel__next-btn {
+    position: absolute;
+    top: 50%;
+}
+.alice-carousel__dots {
+    display: none;
+} */
+
+.alice-carousel__prev-btn-item, 
+.alice-carousel__next-btn-item {
+    color: white !important;
+    font-size: 23px;
+}
+/*
+.alice-carousel__prev-btn {
+    position: absolute;
+    color: white;
+    left: -40px;
+    top: 30%;
+    text-align: left !important;
+ 
+}
+.alice-carousel__next-btn  {
+    position: absolute;
+    color: white;
+    right: -40px;
+    top: 30%;
+    text-align: right !important;
+} */
+.alice-carousel__wrapper {
+    position: relative;
+}
+.add {
+    background-color: #4caf50;
+    height: 36px;
+    width: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.add:hover {
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.alice-carousel__stage-item:hover {
+    cursor: pointer;
+}
+.close-item {
+    font-size: 25px;
+}
+/* .zindex {
+    z-index: -1;
+    position: relative;
+} */
+.add-to-cart {
+    background-color: #F5961B;
+    height: 36px;
+    width: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.carusel-price {
+    font-size: 22px;
+    color: #b72e2e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.close-sidebar {
+    display: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.open-sidebar {
+    display: block;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 400;
 }
-
-.App-link {
-  color: #61dafb;
+.shopping-cart-block {
+    background-color: #ffffff;
+    height: 36px;
+    width: 142px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shopping-cart-block:hover {
+    background: #f5f5f5;
+    cursor: pointer;
+}
+.shopping-cart-logo {
+    width: 25px;
 }
